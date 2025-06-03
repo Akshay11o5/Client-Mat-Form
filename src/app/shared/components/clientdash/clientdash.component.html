@@ -1,0 +1,18 @@
+<div class="row mt-3 align-right">
+  <button
+    (click)="onaddpost()"
+    mat-raised-button
+    style="background-color: #3a0519; color: white"
+  >
+    Add Post
+  </button>
+</div>
+
+<div class="row mt-4">
+  <div class="col-6 offset-3">
+    <app-client-card
+      [clientobj]="client"
+      *ngFor="let client of postArr"
+    ></app-client-card>
+  </div>
+</div>

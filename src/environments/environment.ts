@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  Base_url:
+    'https://form-8dcfe-default-rtdb.asia-southeast1.firebasedatabase.app',
 };
 
 /*
